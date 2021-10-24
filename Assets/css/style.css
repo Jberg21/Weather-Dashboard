@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ :root {
+    --blue: #696969;
+    --black: #020202;
+    --white: #fffefe;
+    --red: #4b0909;
+ }
+ 
+ body {
+    font-family: Helvetica, sans-serif;
+ }
+ 
+ .hero {
+    background: var(--blue);
+ }
+ 
+ .header {
+    color: var(--red);
+    text-shadow: 1px 1px 1px var(--white);
+    font-size: 50px;
+ }
+ 
+ #search-btn {
+    background: var(--black);
+    border: var(--blue);
+ }
+ 
+ .icon-sm {
+    font-size: 4em;
+    text-shadow: 1px 1px 1px var(--white);
+ }
+ 
+ .icon-lg {
+    font-size: 8em;
+    text-shadow: 1px 1px 1px var(--white);
+    padding: 0 30%;
+ }
+ 
+ .bg-orange {
+    background-color: coral;
+ }
+ 
+ .bg-extreme {
+    background-color: purple;
+ }
+ 
+ .five-day {
+    background: var(--blue);
+    color: var(--red);
+    border-radius: 10px;
+    border: 3px solid var(--black);
+    
+    
+ }
