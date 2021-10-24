@@ -110,7 +110,6 @@ function getWeather(lat, lon, city) {
         else {
             alert("Unknown issue");
         }
-
     });
 }
 
